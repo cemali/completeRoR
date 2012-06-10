@@ -1,3 +1,24 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+  font-family: Arial;
+  font-size: 18px; // display the words
+  background-image: image-url("g3sf08.gif");
+  color: Yellow;
+  // adding positioning to the display
+  margin: 0 auto 35px auto;
+  padding: 15px;
+  width: 600px;
+}
+
+textarea {
+  font-family: Arial;
+  font-size: 16px;
+  width: 500px;
+  height: 100px;
+  padding-bottom: 8px;
+}
+
+
