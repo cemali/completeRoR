@@ -15,6 +15,13 @@ gem 'sqlite3'
 gem 'rspec-rails' # just added for test/dev
 end
 
+group :development do
+# gem 'annotate' # added 06162012  - not using it version 2.4.0 
+end
+#added the bcrypt-ruby for authenication 06162012
+gem 'bcrypt-ruby'
+
+
 #added jquery-rails here
 gem 'jquery-rails'
 
